@@ -12,7 +12,6 @@ var btn = document.querySelector("#addBtn");
 
 
 document.querySelector('li:nth-child(2)').addEventListener('click', (e) => {
-    console.log('btn clicked');
     e.stopPropagation();
 });
 document.querySelector("#mUl").addEventListener("click", (e) => {
